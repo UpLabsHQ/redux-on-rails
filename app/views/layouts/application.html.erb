@@ -4,8 +4,13 @@
     <title>ReduxOnRails</title>
     <%= csrf_meta_tags %>
 
+    <%= stylesheet_link_tag    'vendor', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_path 'vendor', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_path 'application', 'data-turbolinks-track': 'reload' %>
+    <!--[if lt IE 9]>
+      <%= javascript_include_tag 'html5shiv/dist/html5shiv' %>
+    <![endif]-->
   </head>
 
   <body>

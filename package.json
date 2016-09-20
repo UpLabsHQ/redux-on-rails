@@ -1,0 +1,13 @@
+{
+  "name": "redux-on-rails",
+  "dependencies": {
+    "babel-polyfill":         "latest",
+    "babel-preset-es2015":    "latest",
+    "babelify":               "latest",
+    "bigpipe":                "latest",
+    "browserify":             "latest",
+    "browserify-incremental": "latest",
+    "html5shiv":              "latest"
+  },
+  "license": "MIT"
+}
