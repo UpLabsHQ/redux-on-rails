@@ -15,6 +15,7 @@ gem "browserify-rails"
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'jasmine-rails'
 end
 
 group :development do
@@ -23,6 +24,19 @@ group :development do
   gem 'spring'
   gem 'listen'
   gem 'spring-watcher-listen'
+  gem 'spring-commands-rspec'
+end
+
+group :test do
+  gem 'capybara-screenshot'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'rspec-rails'
+  gem 'rspec-retry'
+  gem 'selenium-webdriver'
+  gem 'timecop'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
