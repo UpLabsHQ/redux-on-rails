@@ -19,7 +19,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'better_errors'
   gem 'rename'
   gem 'spring'
   gem 'listen'
