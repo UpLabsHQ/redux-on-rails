@@ -49,7 +49,7 @@ GEM
       railties (>= 4.0.0, < 5.1)
       sprockets (>= 3.5.2)
     builder (3.2.2)
-    byebug (9.0.5)
+    byebug (9.0.6)
     capybara (2.9.2)
       addressable
       mime-types (>= 1.16)
