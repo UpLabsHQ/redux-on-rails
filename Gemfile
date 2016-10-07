@@ -5,6 +5,7 @@ gem 'rails'
 gem 'pg'
 gem 'puma'
 gem 'uglifier'
+gem 'listen'
 
 gem 'react-rails'
 gem 'webpack-rails', git: 'https://github.com/matthieua/webpack-rails', branch: :React
@@ -15,7 +16,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen'
   gem 'rename'
   gem 'spring'
   gem 'spring-commands-rspec'
