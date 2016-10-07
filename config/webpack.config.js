@@ -18,8 +18,8 @@ const production = process.env.NODE_ENV === 'production';
 const config = {
   entry: {
     'application': [
-      './app/assets/javascripts/application.js',
-      './app/assets/stylesheets/application.sass'
+      './app/assets/javascripts/app.js',
+      './app/assets/stylesheets/app.sass'
     ],
     'components': './app/assets/javascripts/components.js'
   },
