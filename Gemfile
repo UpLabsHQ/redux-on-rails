@@ -7,7 +7,6 @@ gem 'puma'
 gem 'uglifier'
 
 gem 'react-rails'
-gem 'turbolinks'
 gem 'webpack-rails', git: 'https://github.com/matthieua/webpack-rails', branch: :React
 gem 'react-rails'
 
