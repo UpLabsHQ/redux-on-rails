@@ -1,1 +1,7 @@
-<h1>Hello World</h1>
+<h1>Redux On Rails</h1>
+
+<div class="content">
+  <%= react_component('Hello', { name: 'React Component' }, { prerender: true }) %>
+  <%= react_component('Root', {counter: 10}, { prerender: false } ) %>
+
+</div>

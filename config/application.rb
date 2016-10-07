@@ -12,8 +12,6 @@ module ReduxOnRails
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
 
-    config.assets.precompile = ['manifest.js', 'react-server.js', 'components.js']
-
-    config.browserify_rails.commandline_options = "-t [ babelify --presets [ es2015 ] --extensions .es6 ]"
+    config.assets.enabled = false
   end
 end

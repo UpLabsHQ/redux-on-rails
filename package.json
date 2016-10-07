@@ -1,13 +1,39 @@
 {
   "name": "redux-on-rails",
   "dependencies": {
-    "babel-polyfill":         "latest",
-    "babel-preset-es2015":    "latest",
-    "babelify":               "latest",
-    "bigpipe":                "latest",
-    "browserify":             "latest",
-    "browserify-incremental": "latest",
-    "html5shiv":              "latest"
+    "bigpipe": "latest",
+    "html5shiv": "latest",
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "turbolinks": "^5.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "babelify": "latest",
+    "css-loader": "^0.25.0",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "node-sass": "^3.10.1",
+    "postcss-loader": "^0.13.0",
+    "precss": "^1.4.0",
+    "sass-loader": "^4.0.2",
+    "stats-webpack-plugin": "^0.4.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.3",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-notifier": "^1.4.1"
   },
   "license": "MIT"
 }

@@ -3,11 +3,8 @@
   <head>
     <title>ReduxOnRails</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'vendor', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'vendor', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag *webpack_asset_paths('application', extension: 'css') %>
+    <%= javascript_include_tag *webpack_asset_paths('application', extension: 'js') %>
     <!--[if lt IE 9]>
       <%= javascript_include_tag 'html5shiv/dist/html5shiv' %>
     <![endif]-->
