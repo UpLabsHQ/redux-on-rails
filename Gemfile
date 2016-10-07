@@ -15,6 +15,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'listen'
   gem 'rename'
   gem 'spring'
   gem 'spring-commands-rspec'

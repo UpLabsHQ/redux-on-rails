@@ -198,6 +198,7 @@ DEPENDENCIES
   byebug
   database_cleaner
   factory_girl_rails
+  listen
   pg
   puma
   rails
