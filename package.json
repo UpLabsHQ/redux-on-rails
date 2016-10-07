@@ -11,6 +11,9 @@
     "redux-thunk": "^2.1.0",
     "turbolinks": "^5.0.0"
   },
+  "engines": {
+    "node": "6.x"
+  },
   "devDependencies": {
     "autoprefixer": "^6.5.0",
     "babel-core": "^6.17.0",
