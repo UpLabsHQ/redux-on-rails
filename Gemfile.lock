@@ -55,7 +55,7 @@ GEM
       execjs (~> 2.0)
     builder (3.2.3)
     byebug (9.0.6)
-    childprocess (0.5.9)
+    childprocess (0.6.1)
       ffi (~> 1.0, >= 1.0.11)
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.4)
@@ -163,7 +163,7 @@ GEM
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
-    spring (2.0.0)
+    spring (2.0.1)
       activesupport (>= 4.2)
     spring-commands-rspec (1.0.4)
       spring (>= 0.9.1)
@@ -191,7 +191,7 @@ GEM
       crack (>= 0.3.2)
       hashdiff
     websocket (1.2.3)
-    websocket-driver (0.6.4)
+    websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
 
@@ -224,4 +224,4 @@ RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.13.7
+   1.14.3
