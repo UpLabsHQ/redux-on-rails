@@ -21,3 +21,4 @@
 .byebug_history
 vendor/cache/
 node_modules/
+/bower_components/
